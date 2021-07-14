@@ -74,11 +74,11 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 	public void saveCustomers() throws JsonProcessingException, Exception {
 		System.err.println(token);
 		CustomerEntity ce = new CustomerEntity();
-		ce.setAddress("Hyderabad");
+		ce.setAddress("Rajasthan");
 		ce.setDateOfBirth(new Date(60));
 		ce.setPan("ABCDE1234R");
-		ce.setPassword("Sridurga");
-		ce.setUsername("Sridurga");
+		ce.setPassword("Rishabh");
+		ce.setUsername("Rishabh");
 		ce.setUserid("1234");
 		String json = MAPPER.writeValueAsString(ce);
 		MvcResult andReturn = mockMvc
@@ -92,11 +92,11 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 	public void updateCustomers() throws JsonProcessingException, Exception {
 		System.err.println(token);
 		CustomerEntity ce = new CustomerEntity();
-		ce.setAddress("Hyderabad");
+		ce.setAddress("Rajasthan");
 		ce.setDateOfBirth(new Date(60));
 		ce.setPan("ABCDE1234R");
-		ce.setPassword("Sridurga");
-		ce.setUsername("Sridurga");
+		ce.setPassword("Rishabh");
+		ce.setUsername("Rishabh");
 		ce.setUserid("CUSTOMER101");
 		String json = MAPPER.writeValueAsString(ce);
 		when(customerService.hasEmployeePermission("token")).thenReturn(new AuthenticationResponse("CUSTOMER101", "cust", true));
@@ -111,7 +111,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 	public void unsuccesfulCustomer() throws JsonProcessingException, Exception {
 		System.err.println(token);
 		CustomerEntity ce = new CustomerEntity();
-		ce.setAddress("Hyderabad");
+		ce.setAddress("Rajasthan");
 		ce.setDateOfBirth(new Date(60));
 		ce.setPan("ABCDE1234R");
 		ce.setPassword("Rishabh");
