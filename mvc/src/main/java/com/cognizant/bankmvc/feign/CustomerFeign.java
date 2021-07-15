@@ -17,10 +17,7 @@ import org.springframework.cloud.openfeign.FeignClient;
 
 
 
-/**
- * @author S Nithish Kumar
- *
- */
+
 @FeignClient(name = "customer", url = "${feign.url-customer-service}")
 public interface CustomerFeign {
 
