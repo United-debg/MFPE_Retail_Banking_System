@@ -9,10 +9,6 @@ import org.springframework.web.bind.annotation.RequestHeader;
 
 import com.cognizant.bankmvc.model.Transaction;
 
-/**
- * @author S Nithish Kumar
- *
- */
 @FeignClient(name = "transaction-ms", url = "${feign.url-transaction-service}")
 public interface TransactionFeign {
 
