@@ -7,10 +7,7 @@ import com.cognizant.bankmvc.model.AppUser;
 
 
 
-/**
- * @author S Nithish Kumar
- *
- */
+
 @FeignClient(name = "auth-ms", url = "${feign.url-auth-service}")
 public interface AuthenticationFeign {
 
