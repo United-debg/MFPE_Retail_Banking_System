@@ -6,10 +6,6 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
-/**
- * @author S Nithish Kumar
- *
- */
 @SpringBootApplication
 @EnableSwagger2
 @EnableFeignClients

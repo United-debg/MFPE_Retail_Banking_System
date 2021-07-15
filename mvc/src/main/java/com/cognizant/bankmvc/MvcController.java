@@ -36,10 +36,7 @@ import com.cognizant.bankmvc.model.TransactionInput;
 import jdk.internal.org.jline.utils.Log;
 import lombok.extern.slf4j.Slf4j;
 
-/**
- * @author S NIthish Kumar
- *
- */
+
 @Slf4j
 @RestController
 public class MvcController  {
