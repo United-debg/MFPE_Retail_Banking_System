@@ -18,10 +18,7 @@ import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.NoHandlerFoundException;
 
 
-/**
- * @author S Nithish Kumar
- *
- */
+
 @RestControllerAdvice
 public class GlobalExceptionController{
 
