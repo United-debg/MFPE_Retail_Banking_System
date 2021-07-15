@@ -8,10 +8,7 @@ import lombok.Setter;
 import java.time.LocalDateTime;
 
 
-/**
- * @author S Nithish Kumar
- *
- */
+
 @Getter
 @Setter
 @AllArgsConstructor
