@@ -9,10 +9,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-/**
- * @author S Nithish Kumar
- *
- */
+
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
