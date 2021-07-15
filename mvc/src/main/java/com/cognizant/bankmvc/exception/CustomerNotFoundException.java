@@ -1,9 +1,6 @@
 package com.cognizant.bankmvc.exception;
 
-/**
- * @author S Nithish Kumar
- *
- */
+
 public class CustomerNotFoundException extends RuntimeException {
 
 	/**
