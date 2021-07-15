@@ -15,10 +15,8 @@ import javax.validation.Valid;
 import org.springframework.cloud.openfeign.FeignClient;
 
 
-/**
- * @author S Nithish Kumar
- *
- */
+
+ 
 @FeignClient(name = "account-ms", url = "${feign.url-account-service}")
 public interface AccountFeign {
 	
