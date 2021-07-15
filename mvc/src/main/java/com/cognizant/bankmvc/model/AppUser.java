@@ -5,10 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-/**
- * @author S Nithish Kumar
- *
- */
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
